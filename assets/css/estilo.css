@@ -1,0 +1,331 @@
+p {
+  line-height: 1.55;
+  color: #333;
+  font-size: 400;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+
+
+h1 {
+  /* font-size: 32px; */
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  max-width: 100%;
+  font-family:Helvetica;
+
+}
+
+.box-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.botao-gradient {
+  
+ /* background: linear-gradient(white, white) padding-box, linear-gradient(to right, #006b83, #00b7d4, #006b83) border-box; */
+
+ border-radius: 50em;
+ border: 2px solid transparent;
+ position: relative;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.2em;
+ font-weight: bold;
+ text-decoration: none;
+ color: #10a87d;
+ padding: 0.5em 1.5em;
+ cursor: pointer;
+ width: 600px;
+}
+
+
+.bordas {
+  display: inline-block;
+  padding: 10px 20px; /* Ajuste o padding conforme necessário */
+  border: 2px solid transparent; /* Borda transparente para aplicar o gradiente */
+  border-radius: 50px; /* Ajuste o raio das bordas conforme necessário */
+  background: transparent; /* Fundo transparente */
+  color: #006b83; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado dos links */
+  cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+  outline: none; /* Remove o contorno padrão ao focar no botão */
+  position: relative; /* Necessário para o efeito glow */
+  box-shadow: 0 0 8px rgba(0, 178, 212, 0.5); /* Efeito glow levemente transparente */
+  border-image: linear-gradient(to right, #006b83, #00b7d4, #006b83) 1; /* Gradiente da borda */
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: #ffffff !important;
+  text-align: left;
+  list-style: none;
+  background-color: #009cc3;
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0,0,0,.15); */
+  border-radius: 0.25rem;
+}
+.config-box{
+  width: 600px;
+    border-radius: 20px;
+    position: absolute;
+    inset: auto auto 0px 0px;
+    margin: 0px;
+    transform: translate(348px, -58px);
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffffff;
+  background-color: #19a4c6;
+}
+
+/* .bordas:hover {
+  box-shadow: 0 0 12px rgba(0, 178, 212, 0.7); 
+} */
+
+.bgcolor-azul{
+  /* background-color: #005971; */
+  background: #005971 url(../img/bg.png) no-repeat;
+  background-size: cover;
+}
+
+.icones-flutuantes{
+  background: url(../img/engrnagem.png) no-repeat;
+    background-position-x: 74px;
+    background-size: auto;
+}
+
+.circle {
+  /* border: 2px solid rgb(255, 255, 255); */
+  background-color: #005971;
+  height: 230px;
+  border-radius: 50%;
+  width: 230px;
+  box-shadow: 0 0 40px 45px #009cc2ab;
+  /* box-shadow: 0 0 50px 15px #48abe0; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+
+/* ==================================================
+  Elements
+  ================================================== */
+  .btn {
+    /* background-color: #199EB8; */
+    background-color: transparent;
+    /* border: 1px solid #ccc; */
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    width: 600px;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+    font-weight: 500;
+    /* box-shadow: -1px 0em 0.5em 0em; */
+    margin: 0 auto;
+    box-shadow: inset 0 0px 30px 1px #009cc2ab;
+    /* background: url(../img/123.png); */
+    background: url(../img/1234.png);
+    background-position: center;
+    background-size: initial;
+  }
+  /* .itens{
+      position: absolute;
+      font-size: 23px;
+      left: 583px;
+      margin-top: -5px;
+  } */
+  .itens {
+    position: absolute;
+    font-size: 23px;
+    left: 994px;
+    margin-top: -5px;
+}
+  .btn:hover {
+     background-color: #1ba1bb;
+    color: rgb(231 231 231);
+  }
+  
+  .btn:focus {
+    color: #fff;
+  }
+  
+  .btn-ghost {
+    border: 3px solid #fff;
+    background-color: transparent;
+  }
+  
+  /* .btn-ghost:hover {
+    background-color: #fff;
+    color: #199EB8;
+  } */
+
+  .icones-flutuantes {
+    background: url(../img/engrnagem.png) no-repeat;
+    height: 100%;
+    background-position-x: 933px;
+    background-position-y: 217px;
+    /* position: initial; */
+    background-size: 47px;
+}
+  .icones-body {
+    background: url(../img/grafico.png) no-repeat;
+    height: 100%;
+    background-position-x: 182px;
+    background-position-y: 272px;
+    /* position: initial; */
+    background-size: 47px;
+    display: block;
+}
+
+
+/*pagina link*/
+
+.item-link{
+  width: 600px;
+    /* border: 1px solid #787878; */
+    height: 124px;
+    margin: 0 auto;
+    display: grid;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    /* text-align: center; */
+    background: url(../img/botao.png) no-repeat;
+    background-size: 600px;
+
+  /* width: 100%; 
+  max-width: 600px; 
+  height: auto; 
+  aspect-ratio: 4 / 1; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  background: url(../img/botao.png) no-repeat;
+  background-size: contain;  */
+
+}
+
+.logoespacamento{
+  padding: 20px !important;
+  }
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('Helvetica.woff') format('woff');
+  }
+
+
+  @media (max-width: 768px) {
+    .btn {
+      /* background-color: #199EB8; */
+      background-color: transparent;
+      border: 1px solid #00def6;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
+      color: #fff;
+      max-width: 300px;
+      border-radius: 50px;
+      font-weight: 500;
+      /* box-shadow: -1px 0em 0.5em 0em; */
+      box-shadow: inset 0 0px 30px 1px #009cc2ab;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0px;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.4;
+      max-width: 100%;
+      font-family:Helvetica;
+    
+    }
+    .logoespacamento{
+      padding: 10px !important;
+    }
+
+    .circle {
+      /* border: 2px solid rgb(255, 255, 255); */
+      background-color: #005971;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      box-shadow: 0 0 50px 15px #48abe0;
+      margin: 0 auto;
+      display: flex;
+      margin-top: -40px;
+      align-items: center;
+      padding: 20px;
+      justify-content: center;
+  }
+  .mobile-link{
+    margin-bottom: 2px !important;
+  }
+
+  .icones-flutuantes {
+    background: url(../img/engrnagem.png) no-repeat;
+    height: 100%;
+    background-position-x: 301px;
+    background-position-y: 77px;
+    /* position: initial; */
+    background-size: 44px;
+}
+
+.config-box{
+    max-width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    inset: auto auto 0px 0px;
+    margin: 0px;
+    transform: translate(348px, -58px);
+}
+
+.icones-body {
+  background: url(../img/grafico.png) no-repeat;
+  height: 100%;
+  background-position-x: -89px;
+  background-position-y: 272px;
+  /* position: initial; */
+  background-size: 47px;
+}
+
+  }
